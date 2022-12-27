@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641D9616287A582300FE643D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D9615287A582300FE643D /* RegisterView.swift */; };
+		642FA2CC2851294000A6A14B /* SpeechMarkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FA2CB2851294000A6A14B /* SpeechMarkingApp.swift */; };
+		642FA2CE2851294000A6A14B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FA2CD2851294000A6A14B /* ContentView.swift */; };
+		642FA2D02851294300A6A14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642FA2CF2851294300A6A14B /* Assets.xcassets */; };
+		642FA2D32851294300A6A14B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642FA2D22851294300A6A14B /* Preview Assets.xcassets */; };
+		642FA2DB2852E1B700A6A14B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FA2DA2852E1B700A6A14B /* LoginView.swift */; };
+		644098CD28C2F05D007B6B3F /* Versioncheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644098CC28C2F05D007B6B3F /* Versioncheck.swift */; };
+		644098CF28C2F499007B6B3F /* SJextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644098CE28C2F499007B6B3F /* SJextension.swift */; };
+		644098D128C2F97E007B6B3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644098D028C2F97E007B6B3F /* MenuView.swift */; };
+		644098D328C71EEC007B6B3F /* Logincontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644098D228C71EEC007B6B3F /* Logincontroller.swift */; };
+		646E4063287EC9400083E813 /* appletasklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E4062287EC9400083E813 /* appletasklistView.swift */; };
+		646E4065287ECA270083E813 /* applemarkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E4064287ECA270083E813 /* applemarkingView.swift */; };
+		64843540286C3E5000734A28 /* TestaudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484353F286C3E5000734A28 /* TestaudioView.swift */; };
+		64843542286D342A00734A28 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64843541286D342A00734A28 /* AudioRecorder.swift */; };
+		64843544286D48FE00734A28 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64843543286D48FE00734A28 /* AudioPlayer.swift */; };
+		64843546286E82AF00734A28 /* VoiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64843545286E82AF00734A28 /* VoiceData.swift */; };
+		648712ED28604D22006E2FCD /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648712EC28604D22006E2FCD /* LoginManager.swift */; };
+		648712F0286057F8006E2FCD /* KeyValuePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648712EF286057F8006E2FCD /* KeyValuePersistence.swift */; };
+		648712F228606289006E2FCD /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648712F128606289006E2FCD /* TaskListView.swift */; };
+		648712F428606343006E2FCD /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648712F328606343006E2FCD /* TaskManager.swift */; };
+		64871FDC2890C88200118093 /* YutestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64871FDB2890C88200118093 /* YutestingView.swift */; };
+		648F495C286412D900F022C4 /* MarkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648F495B286412D900F022C4 /* MarkingView.swift */; };
+		64946A8828F560F6007ADF03 /* NetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64946A8728F560F6007ADF03 /* NetListView.swift */; };
+		649652F728B92A65002DA38A /* ToastUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649652F628B92A65002DA38A /* ToastUtil.swift */; };
+		64A32FA1285337B600A210B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A32FA0285337B600A210B0 /* MainView.swift */; };
+		64A32FA428533CD900A210B0 /* MainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A32FA328533CD900A210B0 /* MainAPI.swift */; };
+		8F2794B7F9EDCF679FAE8C88 /* Pods_SpeechMarking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881F300FE09F5CEA9751AC9 /* Pods_SpeechMarking.framework */; };
+		D32A727529135D7700D34D30 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A727429135D7700D34D30 /* LanguageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C17C7A532020917AA8453ED /* Pods-SpeechMarking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechMarking.debug.xcconfig"; path = "Target Support Files/Pods-SpeechMarking/Pods-SpeechMarking.debug.xcconfig"; sourceTree = "<group>"; };
+		57C16AA66492ED3114130E3E /* Pods-SpeechMarking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechMarking.release.xcconfig"; path = "Target Support Files/Pods-SpeechMarking/Pods-SpeechMarking.release.xcconfig"; sourceTree = "<group>"; };
+		641D9615287A582300FE643D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		642FA2C82851294000A6A14B /* SpeechMarking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechMarking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		642FA2CB2851294000A6A14B /* SpeechMarkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMarkingApp.swift; sourceTree = "<group>"; };
+		642FA2CD2851294000A6A14B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		642FA2CF2851294300A6A14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		642FA2D22851294300A6A14B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		642FA2DA2852E1B700A6A14B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		644098CC28C2F05D007B6B3F /* Versioncheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioncheck.swift; sourceTree = "<group>"; };
+		644098CE28C2F499007B6B3F /* SJextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJextension.swift; sourceTree = "<group>"; };
+		644098D028C2F97E007B6B3F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		644098D228C71EEC007B6B3F /* Logincontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logincontroller.swift; sourceTree = "<group>"; };
+		646E4062287EC9400083E813 /* appletasklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appletasklistView.swift; sourceTree = "<group>"; };
+		646E4064287ECA270083E813 /* applemarkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applemarkingView.swift; sourceTree = "<group>"; };
+		6484353F286C3E5000734A28 /* TestaudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestaudioView.swift; sourceTree = "<group>"; };
+		64843541286D342A00734A28 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		64843543286D48FE00734A28 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		64843545286E82AF00734A28 /* VoiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceData.swift; sourceTree = "<group>"; };
+		648712EC28604D22006E2FCD /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		648712EF286057F8006E2FCD /* KeyValuePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValuePersistence.swift; sourceTree = "<group>"; };
+		648712F128606289006E2FCD /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		648712F328606343006E2FCD /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		648712F528608B47006E2FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64871FDB2890C88200118093 /* YutestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutestingView.swift; sourceTree = "<group>"; };
+		648F495B286412D900F022C4 /* MarkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkingView.swift; sourceTree = "<group>"; };
+		64946A8728F560F6007ADF03 /* NetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetListView.swift; sourceTree = "<group>"; };
+		649652F628B92A65002DA38A /* ToastUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastUtil.swift; sourceTree = "<group>"; };
+		64A32FA0285337B600A210B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		64A32FA328533CD900A210B0 /* MainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPI.swift; sourceTree = "<group>"; };
+		8881F300FE09F5CEA9751AC9 /* Pods_SpeechMarking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechMarking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32A727429135D7700D34D30 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		642FA2C52851294000A6A14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2794B7F9EDCF679FAE8C88 /* Pods_SpeechMarking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642FA2BF2851294000A6A14B = {
+			isa = PBXGroup;
+			children = (
+				642FA2CA2851294000A6A14B /* SpeechMarking */,
+				642FA2C92851294000A6A14B /* Products */,
+				91B548B4F759535DCE2B295E /* Pods */,
+				B956F2758BD5EA99AD313C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		642FA2C92851294000A6A14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642FA2C82851294000A6A14B /* SpeechMarking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642FA2CA2851294000A6A14B /* SpeechMarking */ = {
+			isa = PBXGroup;
+			children = (
+				646E4061287EC9210083E813 /* Viewforapple */,
+				648712F528608B47006E2FCD /* Info.plist */,
+				648712EE286057D3006E2FCD /* Utils */,
+				648712EB28604CFC006E2FCD /* Manager */,
+				64A32FA228533CA200A210B0 /* API */,
+				642FA2D92852E1A000A6A14B /* View */,
+				642FA2CB2851294000A6A14B /* SpeechMarkingApp.swift */,
+				642FA2CD2851294000A6A14B /* ContentView.swift */,
+				642FA2CF2851294300A6A14B /* Assets.xcassets */,
+				642FA2D12851294300A6A14B /* Preview Content */,
+			);
+			path = SpeechMarking;
+			sourceTree = "<group>";
+		};
+		642FA2D12851294300A6A14B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				642FA2D22851294300A6A14B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		642FA2D92852E1A000A6A14B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				642FA2DA2852E1B700A6A14B /* LoginView.swift */,
+				64A32FA0285337B600A210B0 /* MainView.swift */,
+				648712F128606289006E2FCD /* TaskListView.swift */,
+				648F495B286412D900F022C4 /* MarkingView.swift */,
+				6484353F286C3E5000734A28 /* TestaudioView.swift */,
+				641D9615287A582300FE643D /* RegisterView.swift */,
+				64871FDB2890C88200118093 /* YutestingView.swift */,
+				644098D028C2F97E007B6B3F /* MenuView.swift */,
+				64946A8728F560F6007ADF03 /* NetListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646E4061287EC9210083E813 /* Viewforapple */ = {
+			isa = PBXGroup;
+			children = (
+				646E4062287EC9400083E813 /* appletasklistView.swift */,
+				646E4064287ECA270083E813 /* applemarkingView.swift */,
+			);
+			path = Viewforapple;
+			sourceTree = "<group>";
+		};
+		648712EB28604CFC006E2FCD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				648712EC28604D22006E2FCD /* LoginManager.swift */,
+				648712F328606343006E2FCD /* TaskManager.swift */,
+				644098D228C71EEC007B6B3F /* Logincontroller.swift */,
+				D32A727429135D7700D34D30 /* LanguageManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		648712EE286057D3006E2FCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				648712EF286057F8006E2FCD /* KeyValuePersistence.swift */,
+				64843541286D342A00734A28 /* AudioRecorder.swift */,
+				64843543286D48FE00734A28 /* AudioPlayer.swift */,
+				64843545286E82AF00734A28 /* VoiceData.swift */,
+				649652F628B92A65002DA38A /* ToastUtil.swift */,
+				644098CC28C2F05D007B6B3F /* Versioncheck.swift */,
+				644098CE28C2F499007B6B3F /* SJextension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		64A32FA228533CA200A210B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				64A32FA328533CD900A210B0 /* MainAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		91B548B4F759535DCE2B295E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C17C7A532020917AA8453ED /* Pods-SpeechMarking.debug.xcconfig */,
+				57C16AA66492ED3114130E3E /* Pods-SpeechMarking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B956F2758BD5EA99AD313C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8881F300FE09F5CEA9751AC9 /* Pods_SpeechMarking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		642FA2C72851294000A6A14B /* SpeechMarking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642FA2D62851294300A6A14B /* Build configuration list for PBXNativeTarget "SpeechMarking" */;
+			buildPhases = (
+				28D409E37040ABCB3C14A83A /* [CP] Check Pods Manifest.lock */,
+				642FA2C42851294000A6A14B /* Sources */,
+				642FA2C52851294000A6A14B /* Frameworks */,
+				642FA2C62851294000A6A14B /* Resources */,
+				D0C888263FC88BFD6C3F1E75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechMarking;
+			productName = SpeechMarking;
+			productReference = 642FA2C82851294000A6A14B /* SpeechMarking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642FA2C02851294000A6A14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					642FA2C72851294000A6A14B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 642FA2C32851294000A6A14B /* Build configuration list for PBXProject "SpeechMarking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 642FA2BF2851294000A6A14B;
+			productRefGroup = 642FA2C92851294000A6A14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642FA2C72851294000A6A14B /* SpeechMarking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		642FA2C62851294000A6A14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642FA2D32851294300A6A14B /* Preview Assets.xcassets in Resources */,
+				642FA2D02851294300A6A14B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28D409E37040ABCB3C14A83A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechMarking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C888263FC88BFD6C3F1E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechMarking/Pods-SpeechMarking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechMarking/Pods-SpeechMarking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechMarking/Pods-SpeechMarking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		642FA2C42851294000A6A14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649652F728B92A65002DA38A /* ToastUtil.swift in Sources */,
+				646E4065287ECA270083E813 /* applemarkingView.swift in Sources */,
+				64946A8828F560F6007ADF03 /* NetListView.swift in Sources */,
+				648712F428606343006E2FCD /* TaskManager.swift in Sources */,
+				D32A727529135D7700D34D30 /* LanguageManager.swift in Sources */,
+				648712ED28604D22006E2FCD /* LoginManager.swift in Sources */,
+				642FA2DB2852E1B700A6A14B /* LoginView.swift in Sources */,
+				644098CD28C2F05D007B6B3F /* Versioncheck.swift in Sources */,
+				64A32FA1285337B600A210B0 /* MainView.swift in Sources */,
+				644098D128C2F97E007B6B3F /* MenuView.swift in Sources */,
+				642FA2CE2851294000A6A14B /* ContentView.swift in Sources */,
+				64A32FA428533CD900A210B0 /* MainAPI.swift in Sources */,
+				64871FDC2890C88200118093 /* YutestingView.swift in Sources */,
+				644098CF28C2F499007B6B3F /* SJextension.swift in Sources */,
+				644098D328C71EEC007B6B3F /* Logincontroller.swift in Sources */,
+				641D9616287A582300FE643D /* RegisterView.swift in Sources */,
+				64843542286D342A00734A28 /* AudioRecorder.swift in Sources */,
+				642FA2CC2851294000A6A14B /* SpeechMarkingApp.swift in Sources */,
+				64843546286E82AF00734A28 /* VoiceData.swift in Sources */,
+				64843540286C3E5000734A28 /* TestaudioView.swift in Sources */,
+				648712F0286057F8006E2FCD /* KeyValuePersistence.swift in Sources */,
+				648F495C286412D900F022C4 /* MarkingView.swift in Sources */,
+				64843544286D48FE00734A28 /* AudioPlayer.swift in Sources */,
+				646E4063287EC9400083E813 /* appletasklistView.swift in Sources */,
+				648712F228606289006E2FCD /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		642FA2D42851294300A6A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		642FA2D52851294300A6A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		642FA2D72851294300A6A14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C17C7A532020917AA8453ED /* Pods-SpeechMarking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechMarking/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XCWN49D2Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechMarking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "小语语音语料标注";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用camera权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "请允许我们使用您的麦克风权限以进行语音识别及翻译";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.Tag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		642FA2D82851294300A6A14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C16AA66492ED3114130E3E /* Pods-SpeechMarking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechMarking/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XCWN49D2Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechMarking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "小语语音语料标注";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用camera权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "请允许我们使用您的麦克风权限以进行语音识别及翻译";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu.Tag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642FA2C32851294000A6A14B /* Build configuration list for PBXProject "SpeechMarking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642FA2D42851294300A6A14B /* Debug */,
+				642FA2D52851294300A6A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642FA2D62851294300A6A14B /* Build configuration list for PBXNativeTarget "SpeechMarking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642FA2D72851294300A6A14B /* Debug */,
+				642FA2D82851294300A6A14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642FA2C02851294000A6A14B /* Project object */;
+}
